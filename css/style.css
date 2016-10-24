@@ -7,14 +7,15 @@
 h1 {
   margin-bottom: 15px;
   text-align: center;
+  font-family: Helvetica;
 }
 p {
+  font-family: arial;
   width: 90%;
   height: 150px;
   margin-top: 30px;
   margin-left: 10px;
   margin-right: 10px;
-  font-family: Helvetica;
   color: white;
 }
 
@@ -22,6 +23,7 @@ p {
   margin-left: 10px; 
   margin-right: 10px;
   background-color: #A52A2A;
+  font-family: Helvetica;
 }
 
 .main-box{
@@ -29,6 +31,7 @@ p {
   margin-right: 10px; 
   margin-top: 0px; 
   padding: 5px;
+  font-family: Helvetica;
 }
 
 .chicken{
@@ -135,7 +138,7 @@ p {
   }
 }
 
-/********** Medium devices only **********/
+/********** Low devices only **********/
 @media (max-width: 767px) {
   .col-sd-1, .col-sd-2, .col-sd-3, .col-sd-4, .col-sd-5, .col-sd-6, .col-sd-7, .col-sd-8, .col-sd-9, .col-sd-10, .col-sd-11, .col-sd-12 {
     float: left;
